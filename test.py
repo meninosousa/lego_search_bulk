@@ -21,9 +21,9 @@ import webbrowser
 urls = ['https://www.fr.ricardo.ch/search/index/?SearchSentence=lego+','http://www.anibis.ch/fr/advertlist.aspx?fts=lego+']
 
 
-#sets = [8366,5600,5599,8475,8376,8184,4589,8675,8183,8369,8378,8676,8448,8880,8466]
-#sets = [8448,8880,8466,5218]
-sets = [8485,8094]
+#sets = [8366,5600,5599,8475,8376,8184,4589,8675,8183,8369,8378,8676,'rc']
+sets = [853,956,8070,8145,8653,8860,8865,8448,8880,8466,5218,42056,'super']
+#sets = [8485,8094]
 
 for each_set in sets:
     for each_url in urls:
