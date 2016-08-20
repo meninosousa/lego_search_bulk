@@ -8,16 +8,6 @@ Created on Thu Jun 23 18:47:30 2016
 import webbrowser
 import sys
 
-#url = 'http://www.python.org/'
-#
-## Open URL in a new tab, if a browser window is already open.
-#
-#
-#
-#
-#webbrowser.open_new_tab(url + 'doc/')
-#
-#webbrowser.open_new(url)
 urls = ['https://www.fr.ricardo.ch/search/index/?SearchSentence=lego+','http://www.anibis.ch/fr/advertlist.aspx?fts=lego+']
 
 sets_rc = [4589,5599,5600,8366,8369,8376,8378,8475,8675,8676,'rc']
@@ -41,6 +31,7 @@ def openner():
 
     elif option == 4:
         sys.exit()
+
     else:
         print('not an option')
         openner()
