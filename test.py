@@ -12,7 +12,7 @@ import time
 urls = ['https://www.fr.ricardo.ch/search/index/?SearchSentence=lego+',\
 'http://www.anibis.ch/fr/advertlist.aspx?fts=lego+']
 
-sets_rc = [4589,5599,5600,8366,8369,8376,8378,8475,8675,8676,'rc']
+sets_rc = [4589,5599,5600,8366,8369,8376,8378,8475,8675,8676,'rc','racers']
 sets_super = [853,956,8070,8145,8448,8466,8653,8860,8865,8880,42056,'super',
               5218]
 sets_control = [8485,8094,'control']
