@@ -21,11 +21,14 @@ sets_ms2 = [9732,9735,9736,9738,9739,9747,9748,9749,9754,9755,9756,9757,9758]
 sets_ms3 = [9798,9833,9841,9842,9843,9844,9845,9846,9847,9889,9911,10285,10286]
 sets_ms4 = [10287,31313,45500,45502,45503,45504,45505,45506,45507,45508,45509]
 sets_ms5 = [45517,2852724,2852725,2852726,2853216,2855040,4524081,'mindstorms']
+sets_games1 = [3592,3874,3920,30170,50003,50004,50006,50011,'game']
+sets_games2 = range(3835,3869)
+sets_games3 = [853358,2853588,2856079,2856745,4648939]
 
 
 
 def openner():
-    option = int(input('1_rc, 2_super, 3_control, 4_8_mindstorms, 0_exit. pls choice: '))
+    option = int(input('1_rc, 2_super, 3_control, 4_8_mindstorms, 9_11_games, 0_exit. pls choice: '))
     sets = []
 
     if option == 1:
@@ -44,6 +47,12 @@ def openner():
         sets = sets_ms4
     elif option == 8:
         sets = sets_ms5
+    elif option == 9:
+        sets = sets_games1
+    elif option == 10:
+        sets = sets_games2
+    elif option == 11:
+        sets = sets_games3
     elif option == 0:
         sys.exit()
     else:
